@@ -70,7 +70,9 @@
     scroll-behavior: smooth;
   }
 }
-
+.cell {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

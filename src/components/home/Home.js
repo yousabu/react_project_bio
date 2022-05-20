@@ -13,15 +13,14 @@ export default function Home(){
           <MuiThemeProvider>
           
           <Helmet>
-                  <style>{'body { background: Lavender ; }'}</style>
+                  <style>{'body { background: AliceBlue ; }'}</style>
           </Helmet>
-          
-            
               
-         
-            <Search />
-            <div>
+          
           <NavBar/> 
+          
+          <div className='container m-2'>
+          <Search />
           </div>
         </MuiThemeProvider>
        

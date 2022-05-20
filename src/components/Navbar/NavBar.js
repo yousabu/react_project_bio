@@ -13,7 +13,8 @@ import { blue900 } from "material-ui/styles/colors";
 
 const useStyles = makeStyles((theme) => ({
   navlinks: {
-    marginLeft: theme.spacing(10),
+    marginLeft: theme.spacing(20),
+    display: "flex"
 
   },
  logo: {
@@ -24,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     color: "white",
     fontSize: "20px",
-    marginLeft: theme.spacing(20),
+    marginLeft: theme.spacing(1),
+    paddingLeft: theme.spacing(3),
     "&:hover": {
       color: "yellow",
       borderBottom: "1px solidwhite",
@@ -39,10 +41,10 @@ function Navbar() {
     <AppBar position="absolute" style={{ backgroundColor: blue900 }}>
       <CssBaseline />
       <Toolbar>
-        <Typography variant="h6">
+      <Typography variant="h5" style={{marginLeft:"10px"}}>
          #Sofware_Project#
         </Typography>
-            <div >
+            <div  style={{marginLeft:"950px"}}>
             <Link to="/Home" className={classes.link}>
               Home
             </Link>
@@ -53,6 +55,7 @@ function Navbar() {
             <Link to="/login" className={classes.link}>
               Logout
             </Link>
+            
         
           
       </Toolbar>
