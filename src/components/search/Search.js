@@ -8,10 +8,7 @@ import '../css/bootstrap.css';
 
 import { blue100 } from 'material-ui/styles/colors';
 import { yellow200 } from 'material-ui/styles/colors';
-import { green800 } from 'material-ui/styles/colors';
-import { red100 } from 'material-ui/styles/colors';
-import { grey50 } from 'material-ui/styles/colors';
-import { grey100 } from 'material-ui/styles/colors';
+
 
 class Search extends Component {
   state = {
@@ -50,7 +47,7 @@ class Search extends Component {
     console.log(this.state.images);
     return (
       <div className='cell' style={styles}>
-        <div style={{backgroundColor: yellow200}}>
+        <div style={{backgroundColor: blue100}}>
         <TextField
           name="searchText"
           className = "textfield"

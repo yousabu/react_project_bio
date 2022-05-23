@@ -42,7 +42,7 @@ class ImageResults extends Component {
                 </IconButton>
               }
             >
-              <img src={img.largeImageURL} alt="" />
+              <img src={img.largeImageURL} alt="not load" />
             </GridTile>
           ))}
         </GridList>
