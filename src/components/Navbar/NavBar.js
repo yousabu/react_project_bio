@@ -42,7 +42,7 @@ function Navbar() {
       <CssBaseline />
       <Toolbar>
       <Typography variant="h5" style={{marginLeft:"10px"}}>
-         #Sofware_Project#
+         Image Picker
         </Typography>
             <div  style={{marginLeft:"950px"}}>
             <Link to="/Home" className={classes.link}>
